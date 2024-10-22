@@ -5,7 +5,7 @@ import numpy as np
 image = cv2.imread('./Image-Processing-Fundamentals/Resources/image.jpg')
 
 # Convert to grayscale
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+# gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Sobel edge detection
 sobel_x = cv2.Sobel(gray, cv2.CV_64F, 1, 0, ksize=5)
